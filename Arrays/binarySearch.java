@@ -19,7 +19,7 @@ public class binarySearch {
     public static void main(String[] args){
         int number[] = {2,3,4,5,6,7,8,9,12};
         int key = 19;
-        int index = binarySearch(number,key);
+        int index = binaySearch(number,key);
         if(index == -1){
             System.out.println("Not found");
         }
