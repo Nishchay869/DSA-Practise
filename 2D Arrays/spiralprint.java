@@ -10,24 +10,26 @@ public class spiralprint {
              //top
              for(int i = startCol;i<=endCol;i++){
                 System.out.print(matrix[startRow][i]+" ");
-                if(startRow == endRow){
-                    break;
                 }
-             }
+             
              //right
              for(int i =startRow+1;i<=endRow;i++){
                 System.out.print(matrix[i][endCol]+" ");
-                if(startCol == endCol){
-                    break;
-                }
+                
              }
              //bottom
              for(int i = endRow-1;i>=startCol;i--){
                 System.out.print(matrix[endRow][i]+" ");
+
+                if(startRow == endRow){
+                    break;}
              }
              //right
              for(int i = endRow-1;i>=startRow+1;i--){
                 System.out.print(matrix[i][startCol]+" ");
+                if(startCol == endCol){
+                    break;
+                }
              }
              startCol++;
         endCol--;
