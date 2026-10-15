@@ -1,3 +1,4 @@
+package practise;
 public class searchKey {
     public static int[] searchKey(int matrix[][],int key){
         for(int i=0;i<matrix.length;i++){
