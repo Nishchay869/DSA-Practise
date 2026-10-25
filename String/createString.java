@@ -7,7 +7,7 @@ public class createString{
         String friend;
         friend = sc.nextLine();
         System.out.println(name);
-        System.out.println(friend);
+        System.out.println(friend.length());
 
     }
 }
