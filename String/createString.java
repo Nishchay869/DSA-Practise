@@ -5,7 +5,7 @@ public class createString{
         String name = "Nishchay";
         Scanner sc = new Scanner(System.in);
         String friend;
-        friend = sc.next();
+        friend = sc.nextLine();
         System.out.println(name);
         System.out.println(friend);
 
