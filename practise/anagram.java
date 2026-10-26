@@ -28,8 +28,8 @@ public class anagram {
         
     }
     public static void main(String args[]){
-        String str1 = "rae";
-        String str2 = "care";
+        String str1 = "car";
+        String str2 = "rat";
         anagram(str1,str2);
 
     }
