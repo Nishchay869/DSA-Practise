@@ -6,6 +6,7 @@ public class accessModifier {
         act.username = "nishu";
         System.out.println(act.username);
         act.setPassword("gfagfag");
+        System.out.println(act.getpassword());
 
     }
     
@@ -14,6 +15,9 @@ public class accessModifier {
 class Bankaccount{
     public String username;
     private String password;
+    String getpassword(){
+        return this.password;
+    }
     void setPassword(String newpwd){
         password = newpwd;
     }
