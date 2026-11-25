@@ -22,11 +22,20 @@ class Student{
     int USN;
     String pwd;
     int marks[] = new int[3];
+    // Student(Student s1){   //parametrized
+    //     this.name = s1.name;            //shallow copy
+    //     this.USN = s1.USN;
+    //     this.pwd = s1.pwd;
+    //     this.marks = s1.marks;
+        
+    // }
     Student(Student s1){   //parametrized
-        this.name = s1.name;
+        this.name = s1.name;            //shallow copy
         this.USN = s1.USN;
         this.pwd = s1.pwd;
-        this.marks = s1.marks;
+        for(int i=0;i<marks.length;i++){
+            this.marks[i] = s1.marks[i];
+        }
         
     }
     Student(){
