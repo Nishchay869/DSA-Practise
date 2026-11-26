@@ -1,3 +1,4 @@
+package Encapsulation;
 public class constructor{
     public static void main(String args[]){
         Student s1 = new Student("Nishu");
